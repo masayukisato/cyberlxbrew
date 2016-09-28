@@ -15,7 +15,6 @@ class Gcc52 < Formula
   depends_on "gmp"
   depends_on "libmpc"
   depends_on "mpfr"
-  depends_on "isl"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
